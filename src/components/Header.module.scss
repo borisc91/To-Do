@@ -1,0 +1,19 @@
+.todosHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+  > img {
+    cursor: pointer;
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.75rem;
+    letter-spacing: 15px;
+  }
+
+}
+  
+   

@@ -1,0 +1,47 @@
+.input_container {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+}
+ 
+
+@mixin inputtBase {
+  background-color: rgb(27, 29, 61);
+  box-shadow: rgba( 0 0 0) 0px 35px 50px -15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  padding-left: 50px;
+}
+
+  .inputt {
+  @include inputtBase();
+}
+
+.inputtWhite {
+  
+  
+  @include inputtBase();
+  background-color: white;
+      box-shadow: rgb(255 255 255) 0px 5px 5px -10px;
+      color: black;
+}
+
+
+  .circle {
+    border: 1px solid rgb(57, 58, 75);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-radius: 50%;
+    
+    }
