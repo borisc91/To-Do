@@ -6,11 +6,15 @@
     display: flex;
     justify-content: space-between;
     color: rgb(57, 58, 75);
+    p {
+      cursor: pointer;
+    }
 
 
     .whiteBg {
       background-color: white;
       color: black;
+      
 
       .clear {
         &:hover {
@@ -20,13 +24,16 @@
         &.active {
           color: rgb(41, 41, 238);
         }
+        
       }
     }
   }
 
 .footerWhite {
   width: 100%;
-    
+  p {
+    cursor: pointer;
+  }
     
     padding: 15px;
     display: flex;
@@ -53,7 +60,10 @@
 
     .todos_footer {
       > p {
+        
         display: none;
       }
     }
   }
+
+  

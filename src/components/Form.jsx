@@ -45,7 +45,7 @@ useEffect(() => {
 
     </div>
     <form onSubmit={todoHandler} ref={formRef}>
-        <input className={`${ctx.themeLight ? classes.inputwhite :  classes.inputt }`} type="text" ref={inputRef} placeholder="Create a new todo.." />
+        <input className={`${ctx.themeLight ? classes.inputtWhite :  classes.inputt }`} type="text" ref={inputRef} placeholder="Create a new todo.." />
         <button type='submit' hidden></button>
     </form>
 </div>
